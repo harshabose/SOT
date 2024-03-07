@@ -23,7 +23,7 @@ namespace sot {
     
     //! Namespace for the random number generator 
     namespace rng {
-        std::mt19937 mt(0); /**< The global random number generator */                                
+        inline std::mt19937 mt(0); /**< The global random number generator */                                
     }
 }
 
